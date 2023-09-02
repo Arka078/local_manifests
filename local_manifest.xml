@@ -25,7 +25,6 @@
              clone-depth="1" />
 
     <!-- Firmware and other dependencies -->
-    <remove-project name="android_device_mediatek_sepolicy_vndr" />
 
     <project path="device/mediatek/sepolicy_vndr"
              name="android_device_mediatek_sepolicy_vndr"
@@ -33,7 +32,6 @@
              revision="lineage-20"
              clone-depth="1" />
 
-    <remove-project name="android_hardware_mediatek" />
 
     <project path="hardware/mediatek"
              name="android_hardware_mediatek"
@@ -45,15 +43,6 @@
              name="proprietary_vendor_realme-firmware"
              remote="realme-mt6785-devs"
              revision="master"
-             clone-depth="1" />
-
-    <!-- App packages -->
-    <remove-project name="android_packages_apps_Camera2" />
-
-    <project path="packages/apps/Aperture"
-             name="android_packages_apps_Aperture"
-             remote="LineageOS"
-             revision="lineage-20.0"
              clone-depth="1" />
 
 </manifest>
